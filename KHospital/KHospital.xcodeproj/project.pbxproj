@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09FDED641F984CDF007256D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FDED631F984CDF007256D9 /* AppDelegate.swift */; };
+		09FDED661F984CDF007256D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FDED651F984CDF007256D9 /* ViewController.swift */; };
+		09FDED691F984CDF007256D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FDED671F984CDF007256D9 /* Main.storyboard */; };
+		09FDED6B1F984CDF007256D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FDED6A1F984CDF007256D9 /* Assets.xcassets */; };
+		09FDED6E1F984CDF007256D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FDED6C1F984CDF007256D9 /* LaunchScreen.storyboard */; };
+		5E3BB5F2D3CD715764423CE3 /* Pods_KHospital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A96D36F7EC330CE76C56820 /* Pods_KHospital.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09FDED601F984CDF007256D9 /* KHospital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHospital.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FDED631F984CDF007256D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09FDED651F984CDF007256D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09FDED681F984CDF007256D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09FDED6A1F984CDF007256D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09FDED6D1F984CDF007256D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09FDED6F1F984CDF007256D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A96D36F7EC330CE76C56820 /* Pods_KHospital.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KHospital.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE21B349D51003CA8AD5E99E /* Pods-KHospital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHospital.release.xcconfig"; path = "Pods/Target Support Files/Pods-KHospital/Pods-KHospital.release.xcconfig"; sourceTree = "<group>"; };
+		F3080D58075EFD4E5C26CA1A /* Pods-KHospital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHospital.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KHospital/Pods-KHospital.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09FDED5D1F984CDF007256D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3BB5F2D3CD715764423CE3 /* Pods_KHospital.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09FDED571F984CDE007256D9 = {
+			isa = PBXGroup;
+			children = (
+				09FDED621F984CDF007256D9 /* KHospital */,
+				09FDED611F984CDF007256D9 /* Products */,
+				3B0543372267CCB8A6BD5BB3 /* Pods */,
+				2E1245A2A701A1CC71A78585 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09FDED611F984CDF007256D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09FDED601F984CDF007256D9 /* KHospital.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09FDED621F984CDF007256D9 /* KHospital */ = {
+			isa = PBXGroup;
+			children = (
+				09FDED631F984CDF007256D9 /* AppDelegate.swift */,
+				09FDED651F984CDF007256D9 /* ViewController.swift */,
+				09FDED671F984CDF007256D9 /* Main.storyboard */,
+				09FDED6A1F984CDF007256D9 /* Assets.xcassets */,
+				09FDED6C1F984CDF007256D9 /* LaunchScreen.storyboard */,
+				09FDED6F1F984CDF007256D9 /* Info.plist */,
+			);
+			path = KHospital;
+			sourceTree = "<group>";
+		};
+		2E1245A2A701A1CC71A78585 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A96D36F7EC330CE76C56820 /* Pods_KHospital.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B0543372267CCB8A6BD5BB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3080D58075EFD4E5C26CA1A /* Pods-KHospital.debug.xcconfig */,
+				EE21B349D51003CA8AD5E99E /* Pods-KHospital.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09FDED5F1F984CDF007256D9 /* KHospital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FDED721F984CDF007256D9 /* Build configuration list for PBXNativeTarget "KHospital" */;
+			buildPhases = (
+				4D660316774DD4DE716DDF7A /* [CP] Check Pods Manifest.lock */,
+				09FDED5C1F984CDF007256D9 /* Sources */,
+				09FDED5D1F984CDF007256D9 /* Frameworks */,
+				09FDED5E1F984CDF007256D9 /* Resources */,
+				B848323A4125FFB17AC91DF7 /* [CP] Embed Pods Frameworks */,
+				BE4700D3A82EF31A1552636E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KHospital;
+			productName = KHospital;
+			productReference = 09FDED601F984CDF007256D9 /* KHospital.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09FDED581F984CDE007256D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "E-health";
+				TargetAttributes = {
+					09FDED5F1F984CDF007256D9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 09FDED5B1F984CDE007256D9 /* Build configuration list for PBXProject "KHospital" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09FDED571F984CDE007256D9;
+			productRefGroup = 09FDED611F984CDF007256D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09FDED5F1F984CDF007256D9 /* KHospital */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09FDED5E1F984CDF007256D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FDED6E1F984CDF007256D9 /* LaunchScreen.storyboard in Resources */,
+				09FDED6B1F984CDF007256D9 /* Assets.xcassets in Resources */,
+				09FDED691F984CDF007256D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D660316774DD4DE716DDF7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KHospital-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B848323A4125FFB17AC91DF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KHospital/Pods-KHospital-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE4700D3A82EF31A1552636E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KHospital/Pods-KHospital-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09FDED5C1F984CDF007256D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FDED661F984CDF007256D9 /* ViewController.swift in Sources */,
+				09FDED641F984CDF007256D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09FDED671F984CDF007256D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FDED681F984CDF007256D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09FDED6C1F984CDF007256D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FDED6D1F984CDF007256D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09FDED701F984CDF007256D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09FDED711F984CDF007256D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09FDED731F984CDF007256D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3080D58075EFD4E5C26CA1A /* Pods-KHospital.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KHospital/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.gov.ehealth.dkonline.KHospital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09FDED741F984CDF007256D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE21B349D51003CA8AD5E99E /* Pods-KHospital.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KHospital/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vn.gov.ehealth.dkonline.KHospital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09FDED5B1F984CDE007256D9 /* Build configuration list for PBXProject "KHospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FDED701F984CDF007256D9 /* Debug */,
+				09FDED711F984CDF007256D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09FDED721F984CDF007256D9 /* Build configuration list for PBXNativeTarget "KHospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FDED731F984CDF007256D9 /* Debug */,
+				09FDED741F984CDF007256D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09FDED581F984CDE007256D9 /* Project object */;
+}
