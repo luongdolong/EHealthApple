@@ -24,10 +24,10 @@ class ViewController: UIViewController, WKNavigationDelegate {
 
     override func loadView() {
         super.loadView()
-        let webConfiguration = WKWebViewConfiguration()
-        webView = WKWebView(frame: .zero, configuration: webConfiguration)
-        webView.navigationDelegate = self
-        self.viewBg = webView
+        //let webConfiguration = WKWebViewConfiguration()
+        //webView = WKWebView(frame: .zero, configuration: webConfiguration)
+        //webView.navigationDelegate = self
+        //self.viewBg = webView
         //self.viewBg?.addSubview(webView)
     }
 
@@ -36,7 +36,21 @@ class ViewController: UIViewController, WKNavigationDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         btnReload?.isHidden = true
         viewBg?.isHidden = false
-
+    
+        // Create WKWebView in code, because IB cannot add a WKWebView directly
+        webView = WKWebView()
+        webView.translatesAutoresizingMaskIntoConstraints = false
+        viewBg?.addSubview(webView)
+        viewBg?.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "|-[webView]-|",
+                                                                           options: NSLayoutFormatOptions(rawValue: 0),
+                                                                           metrics: nil,
+                                                                           views: ["webView": webView]))
+        viewBg?.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[webView]-|",
+                                                                           options: NSLayoutFormatOptions(rawValue: 0),
+                                                                           metrics: nil,
+                                                                           views: ["webView": webView]))
+        
+        
         let myURL = URL(string: mainURL)
         let myRequest = URLRequest(url: myURL!)
         webView.load(myRequest)
