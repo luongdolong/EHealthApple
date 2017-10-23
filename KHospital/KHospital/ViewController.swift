@@ -8,6 +8,7 @@
 
 import UIKit
 import WebKit
+import SVProgressHUD
 
 class ViewController: UIViewController, WKNavigationDelegate {
 
@@ -39,6 +40,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
     
         // Create WKWebView in code, because IB cannot add a WKWebView directly
         webView = WKWebView()
+        webView.navigationDelegate = self
         webView.translatesAutoresizingMaskIntoConstraints = false
         viewBg?.addSubview(webView)
         viewBg?.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "|-[webView]-|",
@@ -87,16 +89,19 @@ class ViewController: UIViewController, WKNavigationDelegate {
 
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         UIApplication.shared.isNetworkActivityIndicatorVisible = false
+        SVProgressHUD.dismiss()
         //showLoadingIndicator(false)
     }
 
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
         UIApplication.shared.isNetworkActivityIndicatorVisible = true
+        SVProgressHUD.show()
         //showLoadingIndicator(true)
     }
 
     func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
         UIApplication.shared.isNetworkActivityIndicatorVisible = false
+        SVProgressHUD.dismiss()
         //showLoadingIndicator(false)
         btnReload?.isHidden = false
         viewBg?.isHidden = true

@@ -6,5 +6,6 @@ target 'KHospital' do
   use_frameworks!
 
   # Pods for KHospital
+  pod 'SVProgressHUD'
 
 end
